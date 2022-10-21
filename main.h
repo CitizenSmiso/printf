@@ -58,4 +58,8 @@ char *fill_long_oct_array(char *bnr, char *oct);
 char *fill_short_oct_array(char *bnr, char *oct);
 char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
 
+int give_precision(char *, char);
+int give_width(char *, char);
+char *get_result(char *, char *, int p, int w, int slen, int flen, int mlen);
+
 #endif
